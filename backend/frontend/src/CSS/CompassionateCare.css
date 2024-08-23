@@ -1,0 +1,124 @@
+.compassionate-care {
+    font-family: Arial, sans-serif;
+    height: 800px;
+    position: relative;
+  }
+  
+  .banner {
+    background-image: url('https://via.placeholder.com/800x400');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+    text-align: center;
+    height: 500px;
+    
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+ .overlay .play-button-1 {
+    font-size: 22px;
+    background-color: #9a054d;
+    border-radius: 50%;
+   padding: 16px 17px;
+
+  }
+  .overlay p{
+    width: 70%;
+  }
+  .testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 12%;
+    left: 50%;
+    width: 75%;
+    transform: translateX(-50%);
+    height: 230px;
+  }
+  
+  .testimonial-content {
+    flex: 1;
+    background-color: #ac054e;
+    color: white;
+    padding: 40px;
+    height: 100%;
+   text-align: left;
+  }
+  
+  .testimonial-content h2,
+  .testimonial-content h3 {
+    margin: 0 0 20px 0;
+  }
+  
+  .testimonial-content p {
+    margin-bottom: 20px;
+  }
+  
+  .contact-button {
+   color: white;
+   background-color: #740133;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+  
+  .testimonial-review {
+    flex: 1;
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+
+  }
+  
+  .review {
+    position: relative;
+    text-align: left;
+
+  }
+  
+  .review p {
+    margin: 0 0 20px 0;
+  }
+  
+  .reviewer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .reviewer img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .reviewer-info{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  
+  .rating {
+  
+   
+    color: gold;
+  }
+  

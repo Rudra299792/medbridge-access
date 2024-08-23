@@ -1,0 +1,207 @@
+.dashboard-doctor {
+    padding: 20px;
+    width: 70%;
+    background-color: rgb(249, 247, 247);
+   
+  }
+  .dashboard-banner img{
+width: 100%;
+  }
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-appointment-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .dashboard-body {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+
+  
+/* Calendar.css */
+.calendar-section{
+    width: 65%;
+}
+.calendar-container {
+    display: inline-block;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    font-size: 14px;
+  }
+  
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+    padding: 10px 10px;
+    background-color: white;
+
+  }
+  
+  .calendar-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .faded{
+    color: rgb(172, 172, 172);
+  }
+  
+  .month-navigation {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    color: rgb(101, 101, 101);
+  }
+  
+  .month-name {
+    font-size: 14px;
+    margin: 0 10px;
+  }
+  
+  .month-navigation button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    color: rgb(101, 101, 101);
+
+  }
+  
+  .calendar-scroll {
+    overflow-x: auto; /* Horizontal scrolling */
+    overflow-y: hidden; /* Hide vertical scrollbar if any */
+    white-space: nowrap; /* Prevent wrapping */
+    background-color: white;
+    padding: 10px;
+  }
+  .calendar-scroll  {
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.calendar-scroll::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for WebKit browsers */
+}
+  
+  .calendar {
+    display: inline-flex;
+  }
+  
+  .calendar-day {
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  
+  .calendar-date {
+    display: inline-block;
+    width: 40px; /* Fixed width for each date */
+    padding: 6px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .calendar-date.selected {
+    background-color: #4a90e2; /* Blue background for selected date */
+    color: white;
+  }
+  
+  .calendar-date:hover {
+    background-color: #e4e4e4; /* Light gray background on hover */
+  }
+  
+  .calendar-date.empty {
+    background-color: transparent;
+    cursor: default;
+  }
+  
+  .details-section{
+    width: 33%;
+  }
+  
+  .statistics, .appointment-requests {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .appointment-requests-header{
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(142, 141, 141);
+  }
+  .appointment-requests-header button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+  .statistics div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: rgb(118, 117, 117);
+    font-size: 14px;
+    text-align: start;
+  }
+  .statistics div span{
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+  }
+  .appointment-requests .request {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .accept-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .calendar-number.selected {
+    /* styles for the selected date number */
+    background-color: blue; /* Example: highlight the selected date number */
+    color: white;
+    border-radius: 50%; /* Example: make the number a circle */
+    display: inline-block;
+    width: 25px; /* Example: fixed width */
+    height: 25px; /* Example: fixed height */
+    text-align: center;
+    line-height: 25px; /* Center the text vertically */
+  }
+  
+  .calendar-date.today .calendar-number {
+    /* Adjust if you have specific styles for today's date */
+    font-weight: bold;
+  }
+  
+  .calendar-date.faded .calendar-number {
+    /* Style for dates from other months */
+    opacity: 0.5;
+  }
+  

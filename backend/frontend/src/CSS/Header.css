@@ -1,0 +1,96 @@
+/* src/Header.css */
+.header {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+  }
+
+.header-strip{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   background-color: #840442;
+   color: white;
+   font-size: 11px;
+}
+
+.header-strip .social-icons {
+width: 7%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+.header-strip a i{
+color: white;
+font-size: 13px;
+border-radius: 50%;
+padding: 6px;
+background-color: #ba1665;
+gap: 3px;
+}
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 70px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .quote-button {
+    background-color: #a7185d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .quote-button:hover {
+    background-color: #0056b3;
+  }
+ /* logo */
+ .logo h1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: 100;
+  color: #840442;
+  margin: 0;
+}
+.title-we {
+  font-size: 50px;
+  font-family: 'Gloock', serif;
+  font-weight: 100;
+}
+.title-2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+}
+.title-2 span {
+  font-size: 15px;
+  margin: 1px 0;
+  font-weight: 100;
+}
+.logo-box{
+  display: flex;
+  align-items: center;
+}
+.logo-box img{
+  width: 90px;
+}

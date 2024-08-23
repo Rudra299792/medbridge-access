@@ -1,0 +1,164 @@
+.registration-container {
+    display: flex;
+    height: 180vh;
+}
+
+.login-container{
+    display: flex;
+    height: 105vh;
+}
+
+.logo-placeholder {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.testimonial-quote {
+    font-size: 24px;
+    font-style: italic;
+    margin-bottom: 10px;
+    color: white; /* Adjust text color based on background image */
+}
+
+.testimonial-author {
+    font-size: 18px;
+    color: white; /* Adjust text color based on background image */
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 37%;
+}
+
+.form-section h3 {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 5px;
+    text-align: start;
+    width: 65%;
+    font-weight: 600;
+}
+
+.form-subheading {
+    font-size: 13px;
+    color: #767575;
+    margin: 0;
+    margin-bottom: 30px;
+    text-align: start;
+    width: 65%;
+}
+
+.profile-photo-container {
+    position: relative;
+    width: 130px;
+    height: 130px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.profile-photo-input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.profile-photo-preview,
+.profile-photo-placeholder {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+.profile-photo-placeholder {
+    background-color:rgb(246, 246, 246);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+  
+}
+.profile-photo-placeholder img{
+    width: 100%;
+}
+
+.profile-photo-placeholder::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.profile-photo-placeholder::after {
+    content: "Upload Picture 🖊️";
+    position: absolute;
+    bottom: 18px;
+    left: 0;
+    right: 0;
+    color: white;
+    font-size: 11px;
+    text-align: center;
+    display: none;
+}
+
+.profile-photo-container:hover .profile-photo-placeholder::before,
+.profile-photo-container:hover .profile-photo-placeholder::after {
+    display: block;
+}
+
+.form-input {
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 14px 4px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    border-radius: 0;
+    width: 65%;
+}
+
+.form-input:focus {
+    outline: none;
+    border-bottom-color: #007bff;
+}
+
+.submit-button {
+    padding: 10px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 68%;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.submit-button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+.form-end{
+    font-size: 12px;
+    color: #767575;
+
+    text-align: center;
+    width: 65%;
+}

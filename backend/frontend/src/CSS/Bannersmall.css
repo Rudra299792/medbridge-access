@@ -1,0 +1,14 @@
+.small-banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+.small-banner-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    height: 230px;
+  }

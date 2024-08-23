@@ -1,0 +1,55 @@
+.Service-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.Services{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-section {
+    padding: 40px;
+    background-color: #fff;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 88%;
+  }
+  
+  .services-subtitle {
+    color: #d4007d; /* This color matches the one shown in the screenshot */
+    font-size: 1.2em;
+    margin: 1px 0;
+  }
+  
+  .services-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 1px 0;
+  }
+  
+  .services-description {
+    color: #555;
+    font-size: 12px;
+    line-height: 1.6em;
+    max-width: 600px;
+  }
+  .services-headings{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+  }
+  
+  .Service-page .service-card {
+    
+    height: 400px;
+    
+}

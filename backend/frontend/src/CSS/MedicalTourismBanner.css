@@ -1,0 +1,123 @@
+.medical-tourism-page{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.medical-tourism-banner-container {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 500px;
+  }
+  
+  .medical-tourism-card {
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .providers-card .medical-tourism-banner-overlay {
+    background-color: rgba(0, 0, 255, 0.3); /* Bluish overlay */
+  }
+  
+  .patients-card .medical-tourism-banner-overlay {
+    background-color: rgba(255, 192, 203, 0.3); /* Pinkish overlay */
+  }
+  
+  .medical-tourism-banner-content {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: 90%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    z-index: 2;
+    text-align: start;
+  }
+  
+  .medical-tourism-banner-image-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .medical-tourism-banner-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+    background-repeat: no-repeat;
+
+  }
+  
+  .medical-tourism-banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  
+  .medical-tourism-banner-title {
+    font-size: 34px;
+    margin: 0 0 10px 0;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 900;
+  }
+  
+  .medical-tourism-banner-description,
+  .medical-tourism-banner-features-list {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .medical-tourism-banner-features-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .medical-tourism-banner-features-list li {
+    margin-bottom: 10px;
+  }
+  
+  .medical-tourism-banner-learn-more-btn,
+  .medical-tourism-banner-get-quote-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color:transparent;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  
+  .medical-tourism-banner-learn-more-btn:hover,
+  .medical-tourism-banner-get-quote-btn:hover {
+    background-color: rgba(255, 255, 255, 1);
+    color:black;
+  }
+  .patient-survey{
+    width: 70%;
+    padding: 50px 0;
+  }
+  .patient-survey h2{
+    color: #840442;
+    font-size: 35px;
+  }
+  .patient-survey p{
+    font-size: 15px;
+    letter-spacing: 0.04rem;
+  }

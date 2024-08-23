@@ -1,0 +1,101 @@
+.dashboard {
+    display: flex;
+  
+  
+    width: 100%;
+  }
+  
+  .username {
+   width: 90%;
+   text-align: start;
+    font-size: 24px;
+  }
+  
+  .actions {
+    margin: 20px 0;
+    width: 70%;
+  }
+  
+  .actions button {
+    margin: 0 10px;
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 45%;
+    background-color:  #a7185d;
+    color: white;
+    border: none;
+    outline: none;
+  }
+  
+  .appointment-card {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    margin: 20px 0;
+  }
+  
+  .doctor-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .appointment-details {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+  }
+  
+  .appointment-details h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .appointment-details p {
+    margin: 5px 0;
+    font-size: 15px;
+    text-align: start;
+    color: rgb(131, 130, 130);
+
+  }
+  .user-links{
+    width: 50%;
+    
+  }
+  
+  .link-button {
+    text-decoration: none;
+    width: 100%;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 15px 15px;
+color: rgb(131, 130, 130);
+    border-radius: 25px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.2);
+
+  }
+  
+  .link-button h2 {
+  margin: 0;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+  }
+  .link-button i{
+    font-size: 20px;
+  }
+  
+  .link-button:hover {
+padding: 17px;
+  }
+  

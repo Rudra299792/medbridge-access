@@ -1,0 +1,75 @@
+.medical-tourism-container {
+    font-family: Arial, sans-serif;
+    color: #4a4a4a;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .medical-tourism-header {
+    margin-bottom: 20px;
+
+  }
+  .process-heading, .medical-tourism-header h2{
+    color: #625d5d;
+font-size: 30px;
+  }
+  .process-subheading{
+    color: rgb(119, 119, 119);
+  }
+  
+  .medical-tourism-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+  }
+  .medical-tourism-image-section {
+    width: 65%;
+  }
+  .medical-tourism-image-section img {
+    width: 100%;
+    height: 750px;
+
+  }
+  
+  .medical-tourism-info-section {
+    position: absolute;
+    top: 6%;
+    right:12%;
+  }
+  
+  .medical-tourism-info-box {
+    background-color: #ffffffeb;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    padding: 20px ;
+    margin: 25px 0;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    font-weight: 700;
+
+letter-spacing: 0.04rem; 
+ }
+  
+  .medical-tourism-info-box p {
+    margin: 0 0 20px;
+  }
+  
+  .medical-tourism-info-box button {
+    background-color:  #a7185d;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 11px 20px;
+    cursor: pointer;
+    font-weight: 700;
+font-size: 15px;
+  }
+  
+  .medical-tourism-info-box button:hover {
+    background-color:  #801147;
+  }
+  

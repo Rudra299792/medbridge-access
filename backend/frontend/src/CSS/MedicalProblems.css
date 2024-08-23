@@ -1,0 +1,78 @@
+.medical-problems {
+    
+    margin: 10px 0 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+  }
+  .medical-problems-overlay{
+    background-color: #ac054dc4;
+    width: 100%;
+    padding: 20px 18px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+  }
+  
+  .title {
+    color:  #fa067ce6 !important;
+    font-size: 2.5em;
+    margin-bottom: 0;
+  }
+  
+  .subtitle {
+    color: white;
+    margin-bottom: 30px;
+  }
+  
+  .problems-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 90%;
+  }
+  
+  .problem-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 28%;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon-image {
+    width: 70%;
+  }
+  .icon-image img{
+    width: 100%;
+  }
+  
+  .country {
+    font-size: 1.3em;
+    color: #333;
+    margin: 1px 0 0;
+  }
+  
+  .issue {
+    font-size: 1em;
+    color: #666;
+    text-align: center;
+    margin-bottom: 6px;
+  }
+  
+  .description {
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 0;
+  }
+  

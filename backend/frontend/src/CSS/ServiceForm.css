@@ -1,0 +1,44 @@
+.service-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+}
+.service-form .heading-field{
+    width:50% ;
+    margin: 10px 0;
+}
+.service-form .heading-field input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.service-form .description-field{
+    width:50% ;
+    margin: 10px 0;
+}
+.service-form .description-field input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.service-form .image-upload{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+
+}
+.service-form .text-editor{
+    width: 100%;
+    margin: 10px 0;
+
+}

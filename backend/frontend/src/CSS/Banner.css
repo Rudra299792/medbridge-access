@@ -1,0 +1,78 @@
+/* src/Banner.css */
+
+  .slider-container {
+    position: relative;
+    height: 550px;
+    /* Add any container-specific styles here */
+}
+.slide-image{
+    width: 100%;
+    max-height: 500px;
+    background-position: center;
+object-fit: cover;
+}
+
+.boxes-container {
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 0px; /* Adjust the gap between boxes as needed */
+    z-index: 2;
+}
+
+.box {
+    width: 330px; /* Adjust the width of the boxes as needed */
+    height: 140px; /* Adjust the height of the boxes as needed */
+    color: white; /* Text color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-container{
+    width: 35%;
+}
+.text-container{
+    width: 65%;
+}
+.text-container h2,
+.text-container h4 {
+    margin: 0;
+    padding: 0;
+    text-align: left; /* Ensures text starts from the left */
+}
+.text-container h4{
+    letter-spacing: 0.004rem;
+}
+
+.text-container p {
+    margin-bottom: 3px; /* Adds some space between p and h4 */
+}
+.box img{
+    height: 50px;
+    padding: 23px;
+    border-radius: 50%;
+}
+.box1{
+    background-color: #9a054d;
+    border-radius: 5px 0 0 5px;
+}
+
+.box2{
+    background-color: #9f245f;
+}
+.box3{
+    background-color: #a44472;
+    border-radius: 0 5px 5px 0;
+}
+.box1 img{
+    background-color:  #ce0868;
+}
+.box2 img{
+    background-color:  #c64282;
+}
+.box3 img{
+    background-color:  #95084c;
+}

@@ -1,0 +1,70 @@
+/* About.css */
+
+.about-us {
+    color: #333;
+    padding: 20px 0;
+   width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+justify-content: center;
+  }
+
+.about-us-box{
+  width: 70%;
+}
+  
+  .about-us h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 900;
+    color: #840442;
+  }
+  
+  .subtitle {
+    text-align: center;
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  .section {
+    margin-bottom: 50px;
+  }
+  
+  .section h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+  
+  .content {
+    display: flex;
+    align-items:start ;
+    justify-content: space-between;
+  }
+  
+  .text {
+    
+    text-align: left;
+    width: 42%;
+  }
+  
+  .text p {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  
+  .image {
+    display: flex;
+    justify-content: center;
+    width: 52%;
+  }
+  
+  .image img {
+    width: 80%;
+    height: 550px;
+    object-fit: cover;
+  }
+  
